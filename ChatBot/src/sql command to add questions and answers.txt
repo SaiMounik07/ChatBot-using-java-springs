@@ -1,0 +1,26 @@
+create database piggy;
+use piggy;
+	# Table for questions and ans
+create table queries(questions varchar(1000), ans varchar(10000));
+insert into queries values 
+("Hello", "Hello! How can I help you?"),
+
+("Hi","Hi! How can I help you?"),
+
+("moratorium loan","In an order dated 22nd May 2020, the RBI has allowed banks to extend the time of the repayment of dues for the payment due dates falling between 1st Mar 2020 - 31st May 2020 till 31st Aug 2020. "),
+                            
+("What is Moratorium Loan", "In an order dated 22nd May 2020, the RBI has allowed banks to extend the time of the repayment of dues for the payment due dates falling between 1st Mar 2020 - 31st May 2020 till 31st Aug 2020."),
+                            
+("Benefits of Moratorium","Moratorium is an option provided to not make payments towards your card dues for 6 months starting 1st Mar 2020 and ending 31st Aug 2020. During this period, you can choose not to make payments till the next Statement date. " ),
+                            
+("Is Moratorium helpful for us","Moratorium is an option provided to not make payments towards your card dues for 6 months starting 1st Mar 2020 and ending 31st Aug 2020. During this period, you can choose not to make payments till the next Statement date. "),
+                            
+("what is the eligibility criteria for moratorium Loan","Customers who don't have any pending dues or haven't missed any dues and having a average account balance of 15000 are eligible"),
+                            
+("Am I eligible for moratorium Loan",""),
+                            
+("will the EMIs be billed into my monthly credit card statement","The repayment can be done either in lump-sumamount or borrowers can ask lenders to add these to their outstanding loan and increase the EMI for the remaining months."),
+                            
+("Will I be charged for late payment during the moratorium period","No late payment fees are charged in the moratorium period but we requst to pay the fees ASAP.");
+                            
+select * from queries;
